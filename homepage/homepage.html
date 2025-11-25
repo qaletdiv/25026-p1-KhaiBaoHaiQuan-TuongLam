@@ -4,33 +4,160 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Customs Clearance. Simplified. | CustomsHub</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
     <link rel="stylesheet" href="/static/css/header.css" />
     <link rel="stylesheet" href="/static/css/footer.css" />
-    <link rel="stylesheet" href="homepage.css" />
+    <link rel="stylesheet" href="/homepage/homepage.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   </head>
+
   <body>
     <div id="header-container"></div>
-    <!-- MAIN CONTENT -->
-    <div class="main-content">
-      <div class="hero">
-        <img
-          src="../Images/Image by Lee Robinson.avif"
-          alt="Customs operations illustration by Lee Robinson"
-        />
-        <div class="hero-text">
-          <p>We connect Viet Nam - Canada</p>
-          <p>We handle documentation</p>
-          <p>We relieve stress</p>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <img src="/Images/Image by Lee Robinson.avif" alt="Customs operations">
+      <div class="hero-text">
+        <h1>Customs Clearance. Simplified.</h1>
+        <p>Reliable brokerage & consulting bridging <strong>Vietnam</strong> and <strong>Canada</strong>.</p>
+        <a href="/contact-us/contact-us.html" class="cta-primary">Let’s Connect</a>
+      </div>
+    </section>
+
+    <!-- WHY CUSTOMSHUB -->
+    <section class="why">
+      <div class="container">
+        <h2>Why CustomsHub?</h2>
+        <p class="why-desc">
+          We streamline your customs process with transparency, proactive communication, 
+          and a seamless import/export experience. Our goal is to simplify every step 
+          while keeping your business informed, supported, and fully compliant.
+        </p>
+
+        <div class="why-grid">
+          <div class="why-card">
+            <i class="fa-solid fa-globe"></i>
+            <h3>Cross-Border Expertise</h3>
+            <p>Specialized in Canada–Vietnam trade lanes with deep knowledge of customs legislation in both markets.</p>
+          </div>
+
+          <div class="why-card">
+            <i class="fa-solid fa-file-circle-check"></i>
+            <h3>Accurate Documentation</h3>
+            <p>We handle commercial invoices, packing lists, HS classification, COO, and permit requirements.</p>
+          </div>
+
+          <div class="why-card">
+            <i class="fa-solid fa-handshake-angle"></i>
+            <h3>Stress-Free Clearance</h3>
+            <p>We resolve customs holds, documentation issues, and inspection requirements on your behalf.</p>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
+
+    <!-- LOGISTICS SOLUTIONS -->
+    <section class="solutions">
+      <div class="container">
+        <h2>Our Logistics Solutions</h2>
+        <p class="section-desc">Supporting your trade operations with specialized customs brokerage and consulting services.</p>
+
+        <div class="scroll-wrapper">
+          <div class="solutions-grid">
+
+            <a href="/services/services-canada.html" class="solution-card">
+              <div class="solution-card-img" style="background-image:url('/Images/wp3270206-sap-wallpapers.jpg')"></div>
+              <div class="solution-card-panel purple">
+                <h3>Canadian Customs Brokerage</h3>
+                <span class="arrow">→</span>
+              </div>
+            </a>
+
+            <a href="/services/services-vietnam.html" class="solution-card">
+              <div class="solution-card-img" style="background-image:url('/Images/vietnam-customs.png')"></div>
+              <div class="solution-card-panel blue">
+                <h3>Vietnamese Customs Brokerage</h3>
+                <span class="arrow">→</span>
+              </div>
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BUSINESS SECTORS -->
+    <section class="sectors">
+      <div class="container">
+        <h2>Business Sectors.</h2>
+        <p class="section-desc">Tailored customs strategies for industries with unique regulatory and logistics requirements.</p>
+
+        <div class="scroll-wrapper">
+          <div class="sectors-grid">
+
+            <a href="/sectors/sectorsFashion.html" class="sector-card">
+              <div class="sector-card-img" style="background-image:url('/Images/fashion.jpg')"></div>
+              <div class="sector-card-panel pink">
+                <h3>Fashion & Apparel</h3>
+                <span class="arrow">→</span>
+              </div>
+            </a>
+
+            <a href="/sectors/sectorsElectronic.html" class="sector-card">
+              <div class="sector-card-img" style="background-image:url('/Images/electronic.jpg')"></div>
+              <div class="sector-card-panel grey">
+                <h3>Electronics & Appliances</h3>
+                <span class="arrow">→</span>
+              </div>
+            </a>
+
+            <a href="/sectors/sectorsManu.html" class="sector-card">
+              <div class="sector-card-img" style="background-image:url('/Images/manufacturing.jpg')"></div>
+              <div class="sector-card-panel green">
+                <h3>Manufacturing</h3>
+                <span class="arrow">→</span>
+              </div>
+            </a>
+
+            <a href="/sectors/sectorsChem.html" class="sector-card">
+              <div class="sector-card-img" style="background-image:url('/Images/chemical.jpg')"></div>
+              <div class="sector-card-panel purple">
+                <h3>Chemicals</h3>
+                <span class="arrow">→</span>
+              </div>
+            </a>
+
+            <a href="/sectors/sectorsFood.html" class="sector-card">
+              <div class="sector-card-img" style="background-image:url('/Images/food.jpg')"></div>
+              <div class="sector-card-panel blue">
+                <h3>Food & Beverage</h3>
+                <span class="arrow">→</span>
+              </div>
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE QUOTE -->
+    <section class="experience-quote">
+      <div class="container">
+        <p class="quote">
+          “From the moment you begin working with us, we ensure your operations run smoothly with complete transparency, proactive communication, and a seamless customs experience.”
+        </p>
+        <a href="/quote/quote.html" class="cta-secondary">Request for a quote</a>
+      </div>
+    </section>
+
     <div id="footer-container"></div>
+
     <script type="module">
       import { headerHTML, footerHTML } from "/static/static.js";
       document.getElementById("header-container").innerHTML = headerHTML;
       document.getElementById("footer-container").innerHTML = footerHTML;
+      import("/static/js/header.js");
     </script>
-    <script src="homepage.js"></script>
   </body>
 </html>

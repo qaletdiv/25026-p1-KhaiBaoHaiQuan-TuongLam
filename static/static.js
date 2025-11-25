@@ -27,10 +27,9 @@ export const headerHTML = `
                     </li>
                     <li><a href="/client-exp/client-exp.html">Experience</a></li>
                     <li><a href="/tracking/tracking.html">Tracking</a></li>
-                    <li><a href="#faq">FAQ</a></li>
-                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="/faq/faq.html">FAQ</a></li>
                     <li><a href="/contact-us/contact-us.html">Contact Us</a></li>
-                    <li><a href="/contact-us/contact-us.html" class="cta-button">Get a Quote</a></li>
+                    <li><a href="/quote/quote.html" class="cta-button">Get a Quote</a></li>
                 </ul>
             </nav>
 
